@@ -12,11 +12,11 @@ async def load_start():
     count = num_gbanned_users()
     LOGGER.info("[INFO]: STARTED")
     await pbot.send_message(
-        -1001717154437, f"**Pyrogram Client Started Successfully !!**\nCurrent Gbanned Users: `{count}`"
+        -1001600623444, f"**Pyrogram Client Started Successfully !!**\nCurrent Gbanned Users: `{count}`"
     )
     LOGGER.info("[INFO]: PYROGRAM STARTED")
     await ubot.send_message(
-        -1001717154437, "**Assistant Started Successfully !!**"
+        -1001600623444, "**Assistant Started Successfully !!**"
     )
     
 
